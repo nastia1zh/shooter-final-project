@@ -96,7 +96,7 @@ for i in range(1, 6):
 
 asteroids = sprite.Group()
 for i in range(3):
-    asteroid = Enemy(img_enemy, randint (80, win_width-80), -40, 80, 50, randint(1, 7))
+    asteroid = Enemy(img_ast, randint (80, win_width-80), -40, 80, 50, randint(1, 7))
     asteroids.add(asteroid)
 
 finish = False
